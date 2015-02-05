@@ -6,8 +6,8 @@
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-    <permission android:name="phoenixlogin.com.permission.C2D_MESSAGE" android:protectionLevel="signature" />
-    <uses-permission android:name="phoenixlogin.com.permission.C2D_MESSAGE" />
+    <permission android:name="customer-phoenixlogin.com.permission.C2D_MESSAGE" android:protectionLevel="signature" />
+    <uses-permission android:name="customer-phoenixlogin.com.permission.C2D_MESSAGE" />
     <application android:hardwareAccelerated="true" android:icon="@drawable/icon" android:label="@string/app_name">
         <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale" android:label="@string/activity_name" android:launchMode="singleTop" android:name="CordovaApp" android:theme="@android:style/Theme.Black.NoTitleBar" android:windowSoftInputMode="adjustResize">
             <intent-filter android:label="@string/launcher_name">
@@ -40,6 +40,6 @@
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-    <permission android:name="phoenixlogin.com.permission.C2D_MESSAGE" android:protectionLevel="signature" />
-    <uses-permission android:name="phoenixlogin.com.permission.C2D_MESSAGE" />
+    <permission android:name="customer-phoenixlogin.com.permission.C2D_MESSAGE" android:protectionLevel="signature" />
+    <uses-permission android:name="customer-phoenixlogin.com.permission.C2D_MESSAGE" />
 </manifest>
